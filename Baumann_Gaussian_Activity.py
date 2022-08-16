@@ -239,7 +239,7 @@ def Opinion_Dynamics(N, T, m, K, alpha, beta, gamma, Phi, eps1, eps2, runtime_ne
 # Set parameters
 N = 2500 # 1000 nodes should be the minimum, below initial fluctuations take over and polarization becomes instable
 T = 2
-m = int(np.floor((N+50)/100)) # np.floor(N+50/100)
+m = 10 # np.floor(N+50/100)
 K = 3
 alphas = np.arange(0.0,4.1,0.1)
 beta = 5.0 # 5.0 for replicating the phase-space
